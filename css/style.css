@@ -156,11 +156,13 @@ i {
 }
 
 .bottom-link {
-    padding: .7rem 1.3rem;
+    padding: .7rem 1.5rem;
     border: 1px solid #FFF;
     border-radius: 20px;
     color: white;
     text-decoration: none;
     font-family: "poppins";
     cursor: pointer;
+    display: inline-block;
 }
+
