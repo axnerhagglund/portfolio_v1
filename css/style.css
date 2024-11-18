@@ -39,6 +39,7 @@ img {
     max-width: 500px;
     color: #fff;
     letter-spacing: 2px;
+    margin-bottom: 2rem;
 }
 
 .axner-image {
@@ -159,7 +160,7 @@ i {
 
 .bottom-link {
     padding: .7rem 1.5rem;
-    border: 1px solid #FFF;
+    border: 1px solid #36d7ec;
     border-radius: 20px;
     color: white;
     text-decoration: none;
@@ -168,10 +169,7 @@ i {
     display: inline-block;
 }
 
-@media (min-width:900px) {
-    .desktop-container {
-        display: flex;
-        flex-direction: row;
-        background: green;
-    }
+.second-link {
+    border: 1px solid #cc2121;
 }
+
