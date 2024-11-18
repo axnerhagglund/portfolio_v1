@@ -16,12 +16,14 @@ img {
 
 .wrapper {
     padding: 0 1em;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
 
 .hero-rubrik {
-    font-family: poppins, sans-serif;
+    font-family:"poppins", sans-serif;
     font-size: 3.5rem;
     margin: 2rem 0;
     color: #fff;
@@ -166,3 +168,10 @@ i {
     display: inline-block;
 }
 
+@media (min-width:900px) {
+    .desktop-container {
+        display: flex;
+        flex-direction: row;
+        background: green;
+    }
+}

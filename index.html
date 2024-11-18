@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio_v1</title>
@@ -18,45 +20,70 @@
         <div class="hero-container">
             <h1 class="hero-rubrik">Hey, <br>
                 I'm Axner</h1>
+                <section class="image-card-container">
+                    <img class="axner-image" src="images/babes.jpg" alt="pic of me">
+                    <section class="image-card-text">
+                        <p class="image-text gray">Frontend Developer <span class="image-text-darkgrey">Student</span> </p>
+                        <p class="image-text">Based in Gothenburg</p>
+                    </section>
+                </section>
             <p class="hero-subrubrik"> I am a curious and solution-oriented frontend developer with a passion for creating user-friendly and visually appealing web applications.</p>
-            <section class="image-card-container">
+            <!-- <section class="image-card-container">
                 <img class="axner-image" src="images/babes.jpg" alt="pic of me">
                 <section class="image-card-text">
                     <p class="image-text">Axner Hägglund</p>
                     <p class="image-text gray">Frontend Developer <span class="image-text-darkgrey">Student</span> </p>
                 </section>
-            </section>
+            </section> -->
         </div>
 
         <h2 class="image-rubrik">Begin here</h2>
+        
+        <div class="icon-desktop-wrapper">
+            <section class="icons-section">
+                <i class="ri-user-line"></i>
+                <p class="icon-text">Who am i?</p>
+            </section>
 
-        <section class="icons-section">
-            <i class="ri-user-line"></i>
-            <p class="icon-text">Who am i?</p>
-        </section>
+            <section class="icons-section">
+                <i class="ri-code-s-slash-line"></i>
+                <p class="icon-text">See my projects</p>
+            </section>
 
-        <section class="icons-section">
-            <i class="ri-code-s-slash-line"></i>
-            <p class="icon-text">See my projects</p>
-        </section>
+            <section class="icons-section">
+                <i class="ri-chat-3-line"></i>
+                <p class="icon-text">Say hello! </p>
+            </section>
+        </div>
 
-        <section class="icons-section">
-            <i class="ri-chat-3-line"></i>
-            <p class="icon-text">Say hello! </p>
-        </section>
+        
+        <div class="wrapper-cards">
+            <section class="card-container">
+                <img src="images/cardfirstimage.jpg" alt="picture of one of my projects">
+                <h2 class="card-rubrik">Dynamic Dashboard</h2>
+                <aside class="card-button-links">
+                <a class="button-links" href="#">Html</a>
+                <a class="button-links" href="#">Css</a>
+                <a class="button-links" href="#">Javascript</a>
+                </aside>
+                <p class="card-text">One of my first projects was built using HTML, CSS, and JavaScript. I started by sketching the layout and structure, then brought it to life with HTML. Using CSS, I styled the project to make it visually appealing, focusing on responsive design. </p>
+                <a class="bottom-link" href="#">View</a>
 
-        <section class="card-container">
-            <img src="images/cardfirstimage.jpg" alt="picture of one of my projects">
-            <h2 class="card-rubrik">Dynamic Dashboard</h2>
-            <aside class="card-button-links">
-            <a class="button-links" href="#">Html</a>
-            <a class="button-links" href="#">Css</a>
-            <a class="button-links" href="#">Javascript</a>
-            </aside>
-            <p class="card-text">One of my first projects was built using HTML, CSS, and JavaScript. I started by sketching the layout and structure, then brought it to life with HTML. Using CSS, I styled the project to make it visually appealing, focusing on responsive design. </p>
-            <a class="bottom-link" href="#">View</a>
+            </section>
 
-        </section>
+            <section class="card-container">
+                <img src="images/cardfirstimage.jpg" alt="picture of one of my projects">
+                <h2 class="card-rubrik">Dynamic Dashboard</h2>
+                <aside class="card-button-links">
+                <a class="button-links" href="#">Html</a>
+                <a class="button-links" href="#">Css</a>
+                <a class="button-links" href="#">Javascript</a>
+                </aside>
+                <p class="card-text">One of my first projects was built using HTML, CSS, and JavaScript. I started by sketching the layout and structure, then brought it to life with HTML. Using CSS, I styled the project to make it visually appealing, focusing on responsive design. </p>
+                <a class="bottom-link" href="#">View</a>
+
+            </section>
+        </div>
 
     </div>
 </body>

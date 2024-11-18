@@ -1,0 +1,16 @@
+
+
+
+@media (min-width:900px) {
+   .icon-desktop-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .wrapper-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+} 
