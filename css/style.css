@@ -90,7 +90,7 @@ box-shadow: -7px -8px 135px 15px rgba(255,255,255,0.35);
 }
 
 
-i {
+.icons-navbar {
     
     color: rgb(206, 204, 204);
     font-size: 1.5rem;
@@ -171,5 +171,44 @@ i {
 
 .second-link {
     border: 1px solid #cc2121;
+}
+
+
+/* experience cards */
+
+.experince-card {
+    margin-top: 2em;
+    color: white;
+    min-height: 100vh;
+    max-width: 400px;
+    text-align: center;
+}
+
+.experience-title {
+    font-family: poppins;
+    font-size: 2.1rem;
+}
+
+.experience-subtitle {
+    font-family: "figtree";
+    line-height: 1.6;
+    margin-bottom: 3em;
+}
+
+.ri-code-box-line {
+    font-size: 3.5rem;
+    
+}
+
+.experience-subsubtitle {
+    font-family: poppins;
+    font-size: 1.4rem;
+
+}
+.icons-experience {
+    margin-bottom: 3rem;
+}
+.icons-exp {
+    font-size: 2rem;
 }
 
