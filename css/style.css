@@ -31,11 +31,13 @@ img {
     line-height: 4rem;
 }
 
+
+
 .hero-subrubrik {
     font-family: "Figtree", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 2.2rem;
+    line-height: 1.3;
     max-width: 500px;
     color: #fff;
     letter-spacing: 2px;
@@ -153,7 +155,7 @@ box-shadow: -7px -8px 135px 15px rgba(255,255,255,0.35);
 .card-text {
     color:#fff;
     font-family: "figtree";
-    line-height: 1.3;
+    line-height: 1.6;
     font-size: 1rem;
     margin-bottom: 2rem;
 }
@@ -179,7 +181,7 @@ box-shadow: -7px -8px 135px 15px rgba(255,255,255,0.35);
 .experince-card {
     margin-top: 2em;
     color: white;
-    min-height: 100vh;
+    
     max-width: 400px;
     text-align: center;
 }
@@ -187,17 +189,24 @@ box-shadow: -7px -8px 135px 15px rgba(255,255,255,0.35);
 .experience-title {
     font-family: poppins;
     font-size: 2.1rem;
+    font-weight: 500;
 }
 
 .experience-subtitle {
     font-family: "figtree";
     line-height: 1.6;
     margin-bottom: 3em;
+    font-size: 1.2rem;
 }
 
 .ri-code-box-line {
     font-size: 3.5rem;
     
+}
+
+.ri-layout-6-line {
+    color: white;
+    font-size: 3.5rem;
 }
 
 .experience-subsubtitle {
@@ -210,5 +219,13 @@ box-shadow: -7px -8px 135px 15px rgba(255,255,255,0.35);
 }
 .icons-exp {
     font-size: 2rem;
+}
+
+.devtools {
+    font-family: poppins;
+}
+
+.devtool-list {
+    list-style: none;
 }
 
